@@ -10,6 +10,21 @@ public class TestEnumeraciones {
         //no se debe utilizar comillas, se accede a través del punto.
         System.out.println("Continente No. 4: "+Continentes.AMERICA);
         System.out.println("No. de países en el continente: "+Continentes.AMERICA.getPaises());
+        System.out.println("No. de habitantes: "+Continentes.AMERICA.getHabitantes());
+        System.out.println("Continentes No. 1: "+Continentes.AFRICA);
+        System.out.println("No. de paises en el 1er. continente: "+Continentes.AFRICA.getPaises());
+        System.out.println("No. de habitantes en el 1er. continente: "+Continentes.AFRICA.getHabitantes());
+        System.out.println("Continentes No. 2: "+Continentes.EUROPA);
+        System.out.println("No. de paises en el 2do. continente: "+Continentes.EUROPA.getPaises());
+        System.out.println("No. de habitantes en el 2do. continente: "+Continentes.EUROPA.getHabitantes());
+        System.out.println("Continentes No. 3: "+Continentes.ASIA);
+        System.out.println("No. de paises en el 3er. continente: "+Continentes.ASIA.getPaises());
+        System.out.println("No. de habitantes en el 3er. continente: "+Continentes.ASIA.getHabitantes());
+        System.out.println("Continentes No. 5: "+Continentes.OCEANIA);
+        System.out.println("No. de paises en el 5to. continente: "+Continentes.OCEANIA.getPaises());
+        System.out.println("No. de habitantes en el 5to. continente: "+Continentes.OCEANIA.getHabitantes());
+        System.out.println("No. de paises en el 6to continente: "+Continentes.ANTARTIDA.getPaises());
+        System.out.println("No. de habitantes en el 6to continente: "+Continentes.ANTARTIDA.getHabitantes());
     }
     
     
