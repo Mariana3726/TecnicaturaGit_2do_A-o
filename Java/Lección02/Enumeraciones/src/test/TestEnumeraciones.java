@@ -1,13 +1,17 @@
 package test;
 
+import enumeraciones.Continentes;
 import enumeraciones.Dias;
 
 public class TestEnumeraciones {
     public static void main(String[] args) {
-        System.out.println("Dia 1: "+Dias.LUNES);
-        indicarDiaSemana(Dias.JUEVES); //las enumeraciones se tratan como cadenas, pero no son cadenas
+        //System.out.println("Dia 1: "+Dias.LUNES);
+        //indicarDiaSemana(Dias.JUEVES); //las enumeraciones se tratan como cadenas, pero no son cadenas
         //no se debe utilizar comillas, se accede a través del punto.
+        System.out.println("Continente No. 4: "+Continentes.AMERICA);
+        System.out.println("No. de países en el continente: "+Continentes.AMERICA.getPaises());
     }
+    
     
     private static void indicarDiaSemana(Dias dias){
         switch(dias){
