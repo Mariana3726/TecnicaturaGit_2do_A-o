@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package test;
 
-/**
- *
- * @author Dell
- */
 public class TestArgumentosVariables {
+    public static void main(String[] args) {
+        imprimirNumeros(3, 4, 5);
+        imprimirNumeros(1, 2);
+        variosParametros("Juan","Perez", 7, 8,9);
+    }
     
+    private static void variosParametros(String nombre, String apellido, int ...numeros){
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Apellido: "+apellido);
+        imprimirNumeros(numeros);
+    }
+    
+    private static void imprimirNumeros(int ...numeros){ //los 3 puntos indica que la cant. de elementos va a ser indefinida
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println("Elementos: "+numeros[i]);
+            
+        }
+    }
 }
