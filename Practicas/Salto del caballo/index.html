@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salto del Caballo Animado</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+
+    td {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid #000;
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+    }
+
+    .even {
+      background-color: #f0d9b5;
+    }
+
+    .odd {
+      background-color: #b58863;
+      color: white;
+    }
+
+    .knight {
+      font-size: 28px;
+      color: red;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .step-number {
+      font-size: 14px;
+      opacity: 0.5;
+      position: absolute;
+      bottom: 2px;
+      right: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recorrido del Caballo</h1>
+  <div id="board-container"></div>
+
+  <script>
+    const N = 8;
+    const moves = [
+      [2, 1], [1, 2], [-1, 2], [-2, 1],
+      [-2, -1], [-1, -2], [1, -2], [2, -1]
+    ];
+
+    function createBoard(n) {
+      const board = [];
+      for (let i = 0; i < n; i++) {
+        board[i] = Array(n).fill(-1);
+      }
+      return board;
+    }
+
+    function isValid(x, y, board) {
+      return x >= 0 && y >= 0 && x < N && y < N && board[x][y] === -1;
+    }
+
+    const steps = [];
+
+    function solveKnightTour(x, y, moveCount, board) {
+      board[x][y] = moveCount - 1;
+      steps.push({ x, y, move: moveCount - 1 });
+
+      if (moveCount === N * N) return true;
+
+      for (let [dx, dy] of moves) {
+        const nextX = x + dx;
+        const nextY = y + dy;
+
+        if (isValid(nextX, nextY, board)) {
+          if (solveKnightTour(nextX, nextY, moveCount + 1, board)) {
+            return true;
+          }
+        }
+      }
+
+      board[x][y] = -1;
+      steps.pop();
+      return false;
+    }
+
+    function drawEmptyBoard() {
+      const container = document.getElementById('board-container');
+      const table = document.createElement('table');
+      table.setAttribute('id', 'chess-board');
+
+      for (let i = 0; i < N; i++) {
+        const row = document.createElement('tr');
+        for (let j = 0; j < N; j++) {
+          const cell = document.createElement('td');
+          cell.id = `cell-${i}-${j}`;
+          cell.className = (i + j) % 2 === 0 ? 'even' : 'odd';
+          row.appendChild(cell);
+        }
+        table.appendChild(row);
+      }
+
+      container.innerHTML = "";
+      container.appendChild(table);
+    }
+
+    function animateSteps() {
+      let i = 0;
+      let prev = null;
+
+      function step() {
+        if (i >= steps.length) return;
+
+        const { x, y, move } = steps[i];
+        const cell = document.getElementById(`cell-${x}-${y}`);
+
+        // Dejar número en celda anterior
+        if (prev) {
+          const prevCell = document.getElementById(`cell-${prev.x}-${prev.y}`);
+          prevCell.innerHTML = `<div class="step-number">${prev.move}</div>`;
+        }
+
+        // Mostrar el caballo en la celda actual
+        cell.innerHTML = `<div class="knight">♞</div>`;
+
+        prev = { x, y, move };
+        i++;
+        setTimeout(step, 300);
+      }
+
+      step();
+    }
+
+    function knightTourAnimated() {
+      const board = createBoard(N);
+      steps.length = 0;
+
+      if (solveKnightTour(0, 0, 1, board)) {
+        drawEmptyBoard();
+        animateSteps();
+      } else {
+        document.getElementById('board-container').innerText = "No se encontró solución.";
+      }
+    }
+
+    window.onload = knightTourAnimated;
+  </script>
+</body>
+</html>
+
