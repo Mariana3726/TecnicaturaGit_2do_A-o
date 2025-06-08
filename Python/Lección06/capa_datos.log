@@ -3,3 +3,63 @@
 06:29:47 PM:WARNING [logger_base.py:20] Mensaje a nivel warning
 06:29:47 PM:ERROR [logger_base.py:21] Mensaje a nivel error
 06:29:47 PM:CRITICAL [logger_base.py:22] Mensaje a nivel critical
+04:22:49 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+04:26:58 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+04:28:37 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+04:30:45 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+04:30:45 PM:DEBUG [Persona.py:53] 
+            Id Persona: Mari,
+            Nombre: Salgado,
+            Apellido: marisal@gmail.com,
+            Email: None
+        
+04:31:47 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+04:31:47 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Mari,
+            Apellido: Salgado,
+            Email: marisal@gmail.com
+        
+04:46:43 PM:DEBUG [Persona.py:51] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+04:46:43 PM:DEBUG [Persona.py:53] 
+            Id Persona: None,
+            Nombre: Mari,
+            Apellido: Salgado,
+            Email: marisal@gmail.com
+        
+04:46:43 PM:DEBUG [Persona.py:55] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
