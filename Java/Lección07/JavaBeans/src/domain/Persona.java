@@ -31,6 +31,11 @@ public class Persona implements Serializable{
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + '}';
+    }
     
     
 }
