@@ -213,3 +213,23 @@
             Apellido: Ramos,
             Email: roque234@gmail.com
         
+11:59:10 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001B6ED5CDD00>
+12:01:17 AM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001DD4EB4DEB0>
+12:01:17 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DD4EBCE020; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:01:17 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DD4EBCE130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:02:57 AM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000216B186EED0>
+12:02:57 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x00000216B1B2E020; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:02:57 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x00000216B1B2E130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:02:57 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x00000216B1B2E240; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:03:45 AM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021C5D60A000>
+12:03:45 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000021C5D68E020; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:03:45 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000021C5D68E130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:03:45 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000021C5D68E240; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:03:45 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000021C5D68E350; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:03:45 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000021C5D68E460; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:46 AM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001DFC5423320>
+12:04:46 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DFC579E020; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:46 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DFC579E130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:46 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DFC579E240; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:47 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DFC579E350; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:47 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001DFC579E460; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
