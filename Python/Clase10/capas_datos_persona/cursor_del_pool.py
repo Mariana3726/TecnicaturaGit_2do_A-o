@@ -27,3 +27,28 @@ class CursorDelPool: #definimos la clase que nos permite usar with para manejar 
             log.debug('Commit de la transacción')
         self._cursor.close()
         Conexion.liberarConexion(self._conexion)
+
+if __name__ == '__main__':
+    with CursorDelPool() as cursor: #renombramos al cursor
+        log.debug('Dentro del bloque with')
+        cursor.execute('SELECT * FROM persona')
+        log.debug(cursor.fetchall())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
