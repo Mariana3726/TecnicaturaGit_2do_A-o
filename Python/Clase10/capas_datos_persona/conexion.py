@@ -1,8 +1,8 @@
-from psycopg2 import pool
-from logger_base import log
-import sys
+from psycopg2 import pool # Importa el módulo de psycopg2 para manejo de conexiones a PostgreSQL
+from logger_base import log # Importa el logger definido en otro archivo (logger_base.py) para registrar eventos
+import sys # Importa sys para poder finalizar el programa en caso de que haya error
 
-class Conexion:
+class Conexion: #conexión a la base de datos
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
     _PASSWORD = 'admin'
@@ -20,7 +20,7 @@ class Conexion:
 
     @classmethod
     def obtenerCursor(cls):
-       pass
+        pass
 
     @classmethod
     def obtenerPool(cls):

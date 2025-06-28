@@ -323,3 +323,117 @@
             Apellido: Ramos,
             Email: roque234@gmail.com
         
+10:24:47 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002340B97FAA0>
+10:24:47 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000002340B8FA570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:28:04 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F5328AFAA0>
+10:28:04 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001F53282A570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:29:36 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000018585B3FAA0>
+10:29:36 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000018585ABA570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:56:00 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+11:56:00 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001B09D0F33E0>
+11:56:00 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001B09D076680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:56:00 PM:DEBUG [persona_dao.py:60] Los objetos eliminados son: 
+            Id Persona: 16,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+11:56:00 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+11:56:00 PM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+11:56:00 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x000001B09D076680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:56:00 PM:DEBUG [persona_dao.py:68] Personas eliminadas: 1
+11:56:00 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+11:56:00 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001B09D076680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:56:00 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+11:56:00 PM:DEBUG [cursor_del_pool.py:24] Ocurrio una excepción: Persona.id_persona() missing 1 required positional argument: 'id_persona'
+11:56:00 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x000001B09D076680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:02 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+11:58:02 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000243AF8A0200>
+11:58:02 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x00000243AF8AA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:02 PM:DEBUG [persona_dao.py:60] Los objetos eliminados son: 
+            Id Persona: 16,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+11:58:02 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+11:58:02 PM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+11:58:02 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x00000243AF8AA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:02 PM:DEBUG [persona_dao.py:68] Personas eliminadas: 0
+11:58:02 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+11:58:02 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x00000243AF8AA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:02 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+11:58:02 PM:DEBUG [cursor_del_pool.py:24] Ocurrio una excepción: Persona.id_persona() missing 1 required positional argument: 'id_persona'
+11:58:02 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x00000243AF8AA680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:39 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+11:58:39 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002D9BB750200>
+11:58:39 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000002D9BB75A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:39 PM:DEBUG [persona_dao.py:60] Los objetos eliminados son: 
+            Id Persona: 16,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+11:58:39 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+11:58:39 PM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+11:58:39 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x000002D9BB75A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:39 PM:DEBUG [persona_dao.py:68] Personas eliminadas: 0
+11:58:39 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+11:58:39 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000002D9BB75A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+11:58:39 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+11:58:39 PM:DEBUG [cursor_del_pool.py:24] Ocurrio una excepción: Persona.id_persona() missing 1 required positional argument: 'id_persona'
+11:58:39 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x000002D9BB75A680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:38 AM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+12:04:38 AM:DEBUG [conexion.py:37] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001795C2EE3F0>
+12:04:38 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001795C2F6790; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:38 AM:DEBUG [persona_dao.py:60] Los objetos eliminados son: 
+            Id Persona: 16,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+12:04:38 AM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+12:04:38 AM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+12:04:38 AM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x000001795C2F6790; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:38 AM:DEBUG [persona_dao.py:68] Personas eliminadas: 0
+12:04:38 AM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+12:04:38 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001795C2F6790; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:04:38 AM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+12:04:38 AM:DEBUG [cursor_del_pool.py:24] Ocurrio una excepción: Persona.id_persona() missing 1 required positional argument: 'id_persona'
+12:04:38 AM:DEBUG [conexion.py:48] Regresamos la conexion del pool: <connection object at 0x000001795C2F6790; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:05:25 AM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+12:05:25 AM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000019D94EFC890>
+12:05:25 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000019D94F26680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:05:25 AM:DEBUG [persona_dao.py:60] Los objetos eliminados son: 
+            Id Persona: 16,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+12:05:25 AM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+12:05:25 AM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+12:05:25 AM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x0000019D94F26680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:05:25 AM:DEBUG [persona_dao.py:68] Personas eliminadas: 0
+12:05:25 AM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+12:05:25 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000019D94F26680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:05:25 AM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+12:05:25 AM:DEBUG [cursor_del_pool.py:24] Ocurrio una excepción: Persona.id_persona() missing 1 required positional argument: 'id_persona'
+12:05:25 AM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x0000019D94F26680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:06:41 AM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+12:06:41 AM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022578C633E0>
+12:06:41 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000022578BE6680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:06:41 AM:DEBUG [persona_dao.py:60] Los objetos eliminados son: 
+            Id Persona: 16,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
+12:06:41 AM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+12:06:41 AM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+12:06:41 AM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x0000022578BE6680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:06:41 AM:DEBUG [persona_dao.py:68] Personas eliminadas: 0
+12:06:41 AM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+12:06:41 AM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x0000022578BE6680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+12:06:41 AM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+12:06:41 AM:DEBUG [cursor_del_pool.py:24] Ocurrio una excepción: Persona.id_persona() missing 1 required positional argument: 'id_persona'
+12:06:41 AM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x0000022578BE6680; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
