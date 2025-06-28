@@ -263,3 +263,63 @@
 08:35:28 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
 08:35:28 PM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
 08:35:28 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x000002456B92E130; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:19:13 PM:DEBUG [cursor_del_pool.py:13] Inicio del método with y __enter__
+10:19:13 PM:DEBUG [conexion.py:36] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001982EB3E510>
+10:19:13 PM:DEBUG [conexion.py:18] Conexión obtenida del pool: <connection object at 0x000001983060A570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:19:13 PM:DEBUG [cursor_del_pool.py:21] Se ejecuta el método exit
+10:19:13 PM:DEBUG [cursor_del_pool.py:27] Commit de la transacción
+10:19:13 PM:DEBUG [conexion.py:47] Regresamos la conexion del pool: <connection object at 0x000001983060A570; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 1,
+            Nombre: Juan Carlos,
+            Apellido: Roldán,
+            Email: joroldan@gmaiñ.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 2,
+            Nombre: Javier,
+            Apellido: Torrico,
+            Email: jtpx@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 9,
+            Nombre: Marcos,
+            Apellido: Canto,
+            Email: mcanto@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 10,
+            Nombre: Marcelo,
+            Apellido: Cuenca,
+            Email: mcuenca@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 12,
+            Nombre: María,
+            Apellido: Esparza,
+            Email: mesparza@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 13,
+            Nombre: Marina,
+            Apellido: Ecarsola,
+            Email: ms123@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 15,
+            Nombre: Liliana,
+            Apellido: Dávila,
+            Email: lilidav@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 16,
+            Nombre: Pedro,
+            Apellido: Romero,
+            Email: promeros@gmail.com
+        
+10:19:13 PM:DEBUG [persona_dao.py:77] 
+            Id Persona: 17,
+            Nombre: Roque,
+            Apellido: Ramos,
+            Email: roque234@gmail.com
+        
