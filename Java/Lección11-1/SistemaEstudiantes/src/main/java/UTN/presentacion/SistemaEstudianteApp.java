@@ -19,5 +19,18 @@ public class SistemaEstudianteApp {
         } catch(Exception e){
             System.out.println("Ocurrión un error al ejecutar la operación: "+e.getMessage());
         }
-    }
+    } //fin while
+} //fin main
+
+private static void mostrarMenu(){
+    System.out.print("""
+            ***** Sistema de Estudiantes *****
+            1. Listar estudiantes
+            2. Buscar estudiantes
+            3. Agregar estudiante
+            4. Moificar estudiante
+            5. Eliminar estudiante
+            6. Salir
+            Elige una opción:
+            """);
 }
