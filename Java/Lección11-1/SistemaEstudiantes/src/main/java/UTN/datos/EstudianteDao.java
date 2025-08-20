@@ -162,20 +162,20 @@ public class EstudianteDao {
     //    else System.out.println("No se modificó el estudiante: "+estudianteModificado);
 
         //Agregar estudiante
-        var nuevoEstudiante = new Estudiante("Omar", "Aguilera", "2604300500", "omaragui58@hotmail.com");
-        var agregado = estudianteDao.agregarEstudiante(nuevoEstudiante);
-        if(agregado)
-            System.out.println("Estudiante agregado: "+nuevoEstudiante);
-        else
-            System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
+        //var nuevoEstudiante = new Estudiante("Omar", "Aguilera", "2604300500", "omaragui58@hotmail.com");
+        //var agregado = estudianteDao.agregarEstudiante(nuevoEstudiante);
+        //if(agregado)
+         //   System.out.println("Estudiante agregado: "+nuevoEstudiante);
+        //else
+        //    System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
 
 
         //eliminar estudiante con id 3
-    //    var estudianteEliminar = new Estudiante(3);
-    //    var eliminado = estudianteDao.eliminarEstudiante(estudianteEliminar);
-    //    if (eliminado)
-    //        System.out.println("Estudiante eliminado: " + estudianteEliminar);
-    //    else System.out.println("No se eliminó estudiante: " + estudianteEliminar);
+        var estudianteEliminar = new Estudiante(3);
+        var eliminado = estudianteDao.eliminarEstudiante(estudianteEliminar);
+        if (eliminado)
+            System.out.println("Estudiante eliminado: " + estudianteEliminar);
+        else System.out.println("No se eliminó estudiante: " + estudianteEliminar);
 
         //listar los estudiantes
     //    System.out.println("Listado de estudiantes: ");
