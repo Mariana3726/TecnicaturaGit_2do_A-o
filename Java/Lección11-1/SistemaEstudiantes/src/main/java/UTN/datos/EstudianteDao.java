@@ -178,9 +178,9 @@ public class EstudianteDao {
         else System.out.println("No se eliminó estudiante: " + estudianteEliminar);
 
         //listar los estudiantes
-    //    System.out.println("Listado de estudiantes: ");
-    //    List<Estudiante> estudiantes = estudianteDao.listarEstudiantes();
-    //    estudiantes.forEach(System.out::println);
+        System.out.println("Listado de estudiantes: ");
+        List<Estudiante> estudiantes = estudianteDao.listarEstudiantes();
+        estudiantes.forEach(System.out::println);
 
         //Buscar por ID
    //     var estudiante1 = new Estudiante(1);
